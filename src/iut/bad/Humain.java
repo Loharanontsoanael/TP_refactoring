@@ -24,5 +24,12 @@ public class Humain {
     public String toString() {
         return "Nom: " + nom + ", Prénom: " + prenom + ", Âge: " + age;
     }
+
+    public void boire(){
+        System.out.println("Je bois");
+    }
+    public void manger(){
+        System.out.println("Je mange");
+    }
 }
 
