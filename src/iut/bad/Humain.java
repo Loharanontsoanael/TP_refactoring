@@ -33,4 +33,8 @@ public class Humain implements Consommation {
     public void manger(){
         System.out.println("Je mange");
     }
+
+    public void ami(Humain autreHumain) {
+        ami(autreHumain, 100);
+    }
 }
