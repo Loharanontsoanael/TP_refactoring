@@ -20,7 +20,6 @@ public class Humain {
     public void details() {
         System.out.println(toString());
     }
-
     @Override
     public String toString() {
         return "Nom: " + nom + ", Prénom: " + prenom + ", Âge: " + age;
