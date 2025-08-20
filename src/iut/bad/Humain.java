@@ -42,4 +42,17 @@ public class Humain implements Consommation {
         System.out.println("Je suis ami avec " + autreHumain.toString() +
                 " depuis " + dureeJours + " jours");
     }
+
+
+    public String getNom() {
+        return nom;
+    }
+
+    public String getPrenom() {
+        return prenom;
+    }
+
+    public int getAge() {
+        return age;
+    }
 }
